@@ -107,11 +107,53 @@ function newQuote() {
       
 // Random background gradient
 const colors = [
-    "linear-gradient(135deg, #f093fb, #f5576c)",
-    "linear-gradient(135deg, #5ee7df, #b490ca)",
-    "linear-gradient(135deg, #ff9a9e, #fecfef)",
-    "linear-gradient(135deg, #a1c4fd, #c2e9fb)",
-    "linear-gradient(135deg, #d4fc79, #96e6a1)"
-    ];
+  "linear-gradient(135deg, #f093fb, #f5576c)",
+  "linear-gradient(135deg, #5ee7df, #b490ca)",
+  "linear-gradient(135deg, #ff9a9e, #fecfef)",
+  "linear-gradient(135deg, #a1c4fd, #c2e9fb)",
+  "linear-gradient(135deg, #d4fc79, #96e6a1)",
+  "linear-gradient(135deg, #fbc2eb, #a6c1ee)",
+  "linear-gradient(135deg, #fdfbfb, #ebedee)",
+  "linear-gradient(135deg, #f6d365, #fda085)",
+  "linear-gradient(135deg, #ffecd2, #fcb69f)",
+  "linear-gradient(135deg, #a18cd1, #fbc2eb)",
+  "linear-gradient(135deg, #fad0c4, #ffd1ff)",
+  "linear-gradient(135deg, #ff9a9e, #fad0c4)",
+  "linear-gradient(135deg, #ffdde1, #ee9ca7)",
+  "linear-gradient(135deg, #89f7fe, #66a6ff)",
+  "linear-gradient(135deg, #00c6ff, #0072ff)",
+  "linear-gradient(135deg, #f7797d, #FBD786, #C6FFDD)",
+  "linear-gradient(135deg, #12c2e9, #c471ed, #f64f59)",
+  "linear-gradient(135deg, #ff6a00, #ee0979)",
+  "linear-gradient(135deg, #43e97b, #38f9d7)",
+  "linear-gradient(135deg, #fa709a, #fee140)",
+  "linear-gradient(135deg, #f12711, #f5af19)",
+  "linear-gradient(135deg, #b92b27, #1565C0)",
+  "linear-gradient(135deg, #373B44, #4286f4)",
+  "linear-gradient(135deg, #1f4037, #99f2c8)",
+  "linear-gradient(135deg, #fc6076, #ff9a44, #ef9d43, #e75516)",
+  "linear-gradient(135deg, #2980B9, #6DD5FA, #FFFFFF)",
+  "linear-gradient(135deg, #e53935, #e35d5b)",
+  "linear-gradient(135deg, #159957, #155799)",
+  "linear-gradient(135deg, #2c3e50, #4ca1af)",
+  "linear-gradient(135deg, #7F00FF, #E100FF)",
+  "linear-gradient(135deg, #56CCF2, #2F80ED)",
+  "linear-gradient(135deg, #ff7e5f, #feb47b)",
+  "linear-gradient(135deg, #8E2DE2, #4A00E0)",
+  "linear-gradient(135deg, #fc5c7d, #6a82fb)",
+  "linear-gradient(135deg, #8360c3, #2ebf91)",
+  "linear-gradient(135deg, #f953c6, #b91d73)",
+  "linear-gradient(135deg, #009FFF, #ec2F4B)",
+  "linear-gradient(135deg, #F7971E, #FFD200)",
+  "linear-gradient(135deg, #8E2DE2, #FF416C)",
+  "linear-gradient(135deg, #1D976C, #93F9B9)",
+  "linear-gradient(135deg, #FF512F, #F09819)",
+  "linear-gradient(135deg, #2c3e50, #bdc3c7)",
+  "linear-gradient(135deg, #134E5E, #71B280)",
+  "linear-gradient(135deg, #283c86, #45a247)",
+  "linear-gradient(135deg, #000428, #004e92)"
+];
+
 document.body.style.background = colors[randomIndex];
+
     }
